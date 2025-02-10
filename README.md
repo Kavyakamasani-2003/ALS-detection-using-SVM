@@ -1,62 +1,58 @@
-ALS Detection Using SVM
+# ALS Detection Using SVM
 
-Overview
+## Overview
+This project focuses on detecting Amyotrophic Lateral Sclerosis (ALS) using a Support Vector Machine (SVM) model. It utilizes muscle strength data to classify individuals as ALS-positive or ALS-negative. The dataset used is the PROACT Muscle Strength dataset.
 
-This project focuses on detecting Amyotrophic Lateral Sclerosis (ALS) using a Support Vector Machine (SVM) classifier. It leverages a dataset containing muscle strength measurements to classify individuals as ALS-positive or ALS-negative.
+## Features
+- Implements machine learning techniques for ALS detection.
+- Uses the Support Vector Machine (SVM) classifier.
+- Utilizes a predefined muscle strength dataset for training and evaluation.
+- Provides insights into the effectiveness of SVM in medical diagnosis.
 
-Dataset
+## Dataset
+- **File:** `PROACT_MUSCLESTRENGTH.csv`
+- **Description:** Contains muscle strength measurements of individuals, which are used as features for the classification task.
 
-PROACT_MUSCLESTRENGTH.csv: Contains muscle strength data used for training and testing the model.
+## Requirements
+To run this project, ensure you have the following dependencies installed:
 
-Files in Repository
+```bash
+pip install numpy pandas scikit-learn matplotlib seaborn
+```
 
-CODE.docx: Document containing code implementation details.
+## Installation & Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Kavyakamasani-2003/ALS-detection-using-SVM.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ALS-detection-using-SVM
+   ```
+3. Run the Jupyter Notebook or Python script containing the model implementation.
 
-Mini1publicationpaper.docx: Research paper related to the project.
+## Project Structure
+- `CODE.docx`: Contains the implementation details of the project.
+- `Mini1publicationpaper.docx`: Research paper related to the project.
+- `PROACT_MUSCLESTRENGTH.csv`: The dataset used for training and evaluation.
 
-PROACT_MUSCLESTRENGTH.csv: Dataset used for ALS detection.
+## Model Implementation
+- Data preprocessing includes handling missing values, normalization, and feature selection.
+- The SVM model is trained and evaluated using cross-validation techniques.
+- Performance metrics such as accuracy, precision, recall, and F1-score are used to assess model effectiveness.
 
-Approach
+## Results
+- The trained SVM model demonstrates its ability to classify ALS cases based on muscle strength features.
+- Visualizations such as confusion matrices and ROC curves are generated to analyze performance.
 
-Data Preprocessing: The dataset is cleaned and normalized for better accuracy.
+## Future Work
+- Exploring other machine learning models such as Random Forest, Neural Networks, or CNNs.
+- Enhancing feature selection and data augmentation techniques.
+- Expanding the dataset for better generalization.
 
-Feature Selection: Key features related to muscle strength are selected.
+## Contributors
+- **Kavya Kamasani**  
+  [GitHub Profile](https://github.com/Kavyakamasani-2003)
 
-Model Training: The SVM classifier is trained on the dataset.
-
-Evaluation: The model is tested on unseen data and performance metrics are calculated.
-
-Installation & Usage
-
-Clone the repository:
-
-git clone https://github.com/Kavyakamasani-2003/ALS-detection-using-SVM.git
-
-Install required dependencies:
-
-pip install numpy pandas scikit-learn
-
-Run the SVM model:
-
-python als_detection.py
-
-Results
-
-The SVM model provides a reliable classification of ALS patients based on muscle strength features. The results can be further improved by incorporating deep learning techniques.
-
-Future Enhancements
-
-Implementing CNNs for speech-based ALS detection.
-
-Expanding the dataset with additional biomarkers.
-
-Improving accuracy with hyperparameter tuning.
-
-Contributors
-
-Kavyakamasani-2003
-
-License
-
+## License
 This project is open-source and available under the MIT License.
-
