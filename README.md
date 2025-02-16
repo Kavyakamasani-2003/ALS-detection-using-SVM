@@ -1,4 +1,4 @@
-# ALS Detection Using SVM
+##Healthcare AI: Early ALS Detection 
 
 ## Overview
 This project focuses on detecting Amyotrophic Lateral Sclerosis (ALS) using a Support Vector Machine (SVM) model. It utilizes muscle strength data to classify individuals as ALS-positive or ALS-negative. The dataset used is the PROACT Muscle Strength dataset.
